@@ -5,12 +5,7 @@
 }
 
 .accardion{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-.accardion1, .accardion2{
-  width: 400px;
+  width: 500px;
 }
 
 .item{
