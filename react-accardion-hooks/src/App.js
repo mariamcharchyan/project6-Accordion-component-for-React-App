@@ -12,8 +12,6 @@ function App() {
     .then(data => setData(data.data))
   },[])
 
-  console.log(data);
-
   //for Accardion2
   const [activeIndex, setActiveIndex] = useState(null);
 

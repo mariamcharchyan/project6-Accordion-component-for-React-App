@@ -1,0 +1,48 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accardion{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.accardion1, .accardion2{
+  width: 400px;
+}
+
+.item{
+  background: #f0ebe1;
+  margin: 5px 5px;
+  padding: 10px 20px;
+}
+
+.title{
+  color: #1a1313;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  height: auto;
+  max-height: 9999px;
+}
+
+/* .buttons-container {
+  max-width: 100px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+} */
+
+.buttons-container {
+  display: flex;
+}
+
+.noButton button {
+  pointer-events: none;
+}
